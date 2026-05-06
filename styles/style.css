@@ -58,7 +58,8 @@ header {
 /* main style */
 
 main,
-header {
+header,
+footer {
   max-width: 1300px;
   margin: 0 auto;
 }
@@ -208,23 +209,24 @@ header {
   margin-bottom: 100px;
 }
 
-.holiday-sub-title{
+.holiday-sub-title {
   font-size: 24px;
   font-weight: 500;
   color: #070211;
 }
 
-.holiday-title span{
+.holiday-title span {
   color: #ff0000;
 }
 
-.holiday-title{
+.holiday-title {
   font-weight: 900;
   font-size: 72px;
   color: #070211;
 }
 
-.holiday-description, .portfolio-des{
+.holiday-description,
+.portfolio-des {
   font-size: 20px;
   font-weight: 500;
   color: rgba(7, 2, 17, 0.6);
@@ -240,7 +242,7 @@ header {
   border-radius: 16px 0 16px 16px;
   position: relative;
   left: -250px;
-  z-index:2;
+  z-index: 2;
 }
 
 .red-box {
@@ -257,17 +259,154 @@ header {
 }
 
 /* portfolio description */
-.portfolio-main{
+.portfolio-main {
   margin: 200px 0 120px 0;
 }
 
-.portfolio-img{
+.portfolio-img {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
   border-radius: 16px;
 }
 
-.portfolio-des{
+.portfolio-des {
   width: 800px;
+}
+
+/* subscribe style section */
+.subscribe-main {
+  height: 616px;
+  background-color: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-content {
+  padding-top: 88px;
+  text-align: center;
+}
+
+.subscribe-des {
+  padding-bottom: 48px;
+  gap: 100px;
+}
+
+.subscribe-des,
+img,
+h1,
+p {
+  padding-bottom: 30px;
+}
+
+.subscribe-descrip {
+  font-weight: 500px;
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  padding: 0 30px 0 30px;
+}
+
+.subscribe-box {
+  display: flex;
+  /* text-align: center; */
+  width: 650px;
+  height: 72px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.subscribe-box input {
+  flex: 1;
+  border: none;
+  padding: 0 20px;
+  font-size: 16px;
+  outline: none;
+  background: #ffffff;
+  /* padding-bottom: 30px; */
+}
+
+.subscribe-box button {
+  width: 180px;
+  background: red;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+.input-content {
+  display: flex;
+  justify-content: center;
+}
+
+/* footer section style */
+.footer-container{
+  margin: 150px 0 120px 0;
+  background: #070211;
+  height: 609px;
+}
+.footer-main {
+  padding: 130px 140px 113px 120px;
+}
+
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.footer-img{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer-last{
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+
+.fa-facebook {
+  height: 62px;
+  background: linear-gradient(to bottom, #4c69ba, #3b55a0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  display: inline-block;
+}
+
+.fa-instagram {
+  /* color: ; */
+  background: linear-gradient(
+    45deg,
+    #fdf497 0%,
+    /* Yellow */ #fd5949 35%,
+    #d6249f 70%,
+    #285aeb 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  display: inline-block;
+}
+
+.fa-x-twitter {
+  background: linear-gradient(45deg, #1da1f2 0%, #0e71a8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  display: inline-block;
+}
+
+.fa-linkedin {  
+  background: linear-gradient(to bottom, #0077b5 0%, #005983 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  display: inline-block;
 }
