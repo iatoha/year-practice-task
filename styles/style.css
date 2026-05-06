@@ -196,8 +196,7 @@ header {
 
 /* holiday styles section */
 .holiday-main {
-  /* height: 986px; */
-  /* position: relative; */
+  height: 986px;
 }
 
 .holiday-content {
@@ -207,6 +206,28 @@ header {
 
 .holiday-content-style {
   margin-bottom: 100px;
+}
+
+.holiday-sub-title{
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+}
+
+.holiday-title span{
+  color: #ff0000;
+}
+
+.holiday-title{
+  font-weight: 900;
+  font-size: 72px;
+  color: #070211;
+}
+
+.holiday-description, .portfolio-des{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(7, 2, 17, 0.6);
 }
 
 .position-fixing {
@@ -233,4 +254,20 @@ header {
   right: 200px;
   top: 0;
   width: 300px;
+}
+
+/* portfolio description */
+.portfolio-main{
+  margin: 200px 0 120px 0;
+}
+
+.portfolio-img{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  border-radius: 16px;
+}
+
+.portfolio-des{
+  width: 800px;
 }
